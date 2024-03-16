@@ -10,11 +10,11 @@ export default function Home() {
       </div>
 
       {/* Ellipse */}
-      <div className="absolute -top-[50rem] left-0 -z-20">
+      <div className="absolute -top-[30rem] left-0 -z-20">
         <Image
           src={"/ellipse.png"}
-          width={10000}
-          height={10000}
+          width={3000}
+          height={3000}
           alt=""
           className="w-full h-full object-cover opacity-0 animate-ellipse1"
         />

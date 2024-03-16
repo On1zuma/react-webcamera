@@ -40,10 +40,10 @@ body {
 @keyframes opacity-ellipse1 {
   0%,
   100% {
-    opacity: 0.4;
+    opacity: 1;
   }
   50% {
-    opacity: 1;
+    opacity: 0.4;
   }
 }
 
@@ -62,5 +62,5 @@ body {
 }
 
 .animate-ellipse2 {
-  animation: opacity-ellipse2 17s infinite;
+  animation: opacity-ellipse2 15s infinite;
 }
