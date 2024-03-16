@@ -16,6 +16,11 @@
   }
 }
 
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +35,32 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes opacity-ellipse1 {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-ellipse2 {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-ellipse1 {
+  animation: opacity-ellipse1 10s infinite;
+}
+
+.animate-ellipse2 {
+  animation: opacity-ellipse2 17s infinite;
 }
